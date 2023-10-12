@@ -14,16 +14,16 @@ public class Zad1 {
         if(a > max){
             a = max;
         }
-        if(b > max){
+        else if(b > max){
             b = max;
         }
-        if(c > max){
+        else if(c > max){
             c = max;
         }
-        if(d > max){
+        else if(d > max){
             d = max;
         }
-        if(e > max){
+        else if(e > max){
             e = max;
         }
         System.out.println("Największa liczba: " + max);
